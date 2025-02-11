@@ -1,0 +1,12 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    <body>
+        {% block content %}
+        <h1>About page</h1>
+        <h1>A little something about me</h1>
+        {% load static %}
+        <img style="width:200" src="{% static 'movies/galaxy_quest.png' %}">
+        {% endblock %}
+    </body>
+</html>
